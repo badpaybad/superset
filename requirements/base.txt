@@ -29,7 +29,9 @@ backoff==2.2.1
 bcrypt==4.3.0
     # via paramiko
 beautifulsoup4==4.13.5
-    # via -r requirements/base.in
+    # via
+    #   -r requirements/base.in
+    #   apache-superset (pyproject.toml)
 billiard==4.2.1
     # via celery
 blinker==1.9.0
